@@ -1,0 +1,128 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SAAC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\fev2\LOCALS~1\Temp\RSP87C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/SAAC.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\WaeiWork\safe\server\saac\wk\error.c"
+"D:\WaeiWork\safe\server\saac\wk\TCPIP.c"
+"D:\WaeiWork\safe\server\saac\wk\tools.c"
+"D:\WaeiWork\safe\server\saac\wk\wk.c"
+"D:\WaeiWork\safe\server\saac\acfamily.c"
+"D:\WaeiWork\safe\server\saac\auction.c"
+"D:\WaeiWork\safe\server\saac\char.c"
+"D:\WaeiWork\safe\server\saac\chatroom.c"
+"D:\WaeiWork\safe\server\saac\db.c"
+"D:\WaeiWork\safe\server\saac\deathcontend.c"
+"D:\WaeiWork\safe\server\saac\defend.c"
+"D:\WaeiWork\safe\server\saac\lock.c"
+"D:\WaeiWork\safe\server\saac\mail.c"
+"D:\WaeiWork\safe\server\saac\main.c"
+"D:\WaeiWork\safe\server\saac\recv.c"
+"D:\WaeiWork\safe\server\saac\saacproto_lserver.c"
+"D:\WaeiWork\safe\server\saac\saacproto_oac.c"
+"D:\WaeiWork\safe\server\saac\saacproto_serv.c"
+"D:\WaeiWork\safe\server\saac\saacproto_util.c"
+"D:\WaeiWork\safe\server\saac\saacproto_work.c"
+"D:\WaeiWork\safe\server\saac\sasql.c"
+"D:\WaeiWork\safe\server\saac\tcpip_util.c"
+"D:\WaeiWork\safe\server\saac\util.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\fev2\LOCALS~1\Temp\RSP87C.tmp" 
+Creating temporary file "C:\DOCUME~1\fev2\LOCALS~1\Temp\RSP87D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SAAC.pdb" /debug /machine:I386 /out:"Debug/SAAC.exe" /pdbtype:sept 
+.\Debug\error.obj
+.\Debug\TCPIP.obj
+.\Debug\tools.obj
+.\Debug\wk.obj
+.\Debug\acfamily.obj
+.\Debug\auction.obj
+.\Debug\char.obj
+.\Debug\chatroom.obj
+.\Debug\db.obj
+.\Debug\deathcontend.obj
+.\Debug\defend.obj
+.\Debug\lock.obj
+.\Debug\mail.obj
+.\Debug\main.obj
+.\Debug\recv.obj
+.\Debug\saacproto_lserver.obj
+.\Debug\saacproto_oac.obj
+.\Debug\saacproto_serv.obj
+.\Debug\saacproto_util.obj
+.\Debug\saacproto_work.obj
+.\Debug\sasql.obj
+.\Debug\tcpip_util.obj
+.\Debug\util.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\fev2\LOCALS~1\Temp\RSP87D.tmp"
+<h3>Output Window</h3>
+Compiling...
+error.c
+d:\waeiwork\safe\server\saac\wk\error.c(1) : fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+TCPIP.c
+d:\waeiwork\safe\server\saac\wk\tcpip.c(2) : fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory
+tools.c
+d:\waeiwork\safe\server\saac\wk\tools.c(25) : warning C4013: 'sprintf' undefined; assuming extern returning int
+d:\waeiwork\safe\server\saac\wk\tools.c(35) : warning C4013: 'strlen' undefined; assuming extern returning int
+d:\waeiwork\safe\server\saac\wk\tools.c(52) : warning C4013: 'memcpy' undefined; assuming extern returning int
+d:\waeiwork\safe\server\saac\wk\tools.c(121) : warning C4013: 'calloc' undefined; assuming extern returning int
+d:\waeiwork\safe\server\saac\wk\tools.c(122) : warning C4013: 'strcpy' undefined; assuming extern returning int
+d:\waeiwork\safe\server\saac\wk\tools.c(122) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+d:\waeiwork\safe\server\saac\wk\tools.c(143) : warning C4013: 'free' undefined; assuming extern returning int
+d:\waeiwork\safe\server\saac\wk\tools.c(194) : warning C4013: 'strcat' undefined; assuming extern returning int
+d:\waeiwork\safe\server\saac\wk\tools.c(194) : warning C4013: 'realloc' undefined; assuming extern returning int
+d:\waeiwork\safe\server\saac\wk\tools.c(221) : warning C4013: 'atoi' undefined; assuming extern returning int
+wk.c
+d:\waeiwork\safe\server\saac\wk\wk.c(4) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+acfamily.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+auction.c
+char.c
+d:\waeiwork\safe\server\saac\char.c(9) : fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+chatroom.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+db.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+deathcontend.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+defend.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+lock.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+mail.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+main.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+recv.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+saacproto_lserver.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+saacproto_oac.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+saacproto_serv.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+saacproto_util.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+saacproto_work.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+sasql.c
+tcpip_util.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+util.c
+d:\waeiwork\safe\server\saac\util.c(3) : fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+SAAC.exe - 20 error(s), 10 warning(s)
+</pre>
+</body>
+</html>

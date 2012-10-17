@@ -1,0 +1,609 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GMSV - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\fev2\LOCALS~1\Temp\RSP43C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/GMSV.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\WaeiWork\safe\server\gmsv\battle\battle.c"
+"D:\WaeiWork\safe\server\gmsv\battle\battle_ai.c"
+"D:\WaeiWork\safe\server\gmsv\battle\battle_command.c"
+"D:\WaeiWork\safe\server\gmsv\battle\battle_event.c"
+"D:\WaeiWork\safe\server\gmsv\battle\battle_item.c"
+"D:\WaeiWork\safe\server\gmsv\battle\battle_magic.c"
+"D:\WaeiWork\safe\server\gmsv\battle\pet_skill.c"
+"D:\WaeiWork\safe\server\gmsv\battle\profession_skill.c"
+"D:\WaeiWork\safe\server\gmsv\char\addressbook.c"
+"D:\WaeiWork\safe\server\gmsv\char\char.c"
+"D:\WaeiWork\safe\server\gmsv\char\char_angel.c"
+"D:\WaeiWork\safe\server\gmsv\char\char_base.c"
+"D:\WaeiWork\safe\server\gmsv\char\char_data.c"
+"D:\WaeiWork\safe\server\gmsv\char\char_event.c"
+"D:\WaeiWork\safe\server\gmsv\char\char_item.c"
+"D:\WaeiWork\safe\server\gmsv\char\char_party.c"
+"D:\WaeiWork\safe\server\gmsv\char\char_talk.c"
+"D:\WaeiWork\safe\server\gmsv\char\char_walk.c"
+"D:\WaeiWork\safe\server\gmsv\char\chatmagic.c"
+"D:\WaeiWork\safe\server\gmsv\char\chatroom.c"
+"D:\WaeiWork\safe\server\gmsv\char\deathcontend.c"
+"D:\WaeiWork\safe\server\gmsv\char\defend.c"
+"D:\WaeiWork\safe\server\gmsv\char\encount.c"
+"D:\WaeiWork\safe\server\gmsv\char\enemy.c"
+"D:\WaeiWork\safe\server\gmsv\char\event.c"
+"D:\WaeiWork\safe\server\gmsv\char\family.c"
+"D:\WaeiWork\safe\server\gmsv\char\pet.c"
+"D:\WaeiWork\safe\server\gmsv\char\pet_event.c"
+"D:\WaeiWork\safe\server\gmsv\char\petmail.c"
+"D:\WaeiWork\safe\server\gmsv\char\skill.c"
+"D:\WaeiWork\safe\server\gmsv\char\title.c"
+"D:\WaeiWork\safe\server\gmsv\char\trade.c"
+"D:\WaeiWork\safe\server\gmsv\item\item.c"
+"D:\WaeiWork\safe\server\gmsv\item\item_event.c"
+"D:\WaeiWork\safe\server\gmsv\item\item_gen.c"
+"D:\WaeiWork\safe\server\gmsv\item\item_trade.c"
+"D:\WaeiWork\safe\server\gmsv\magic\magic.c"
+"D:\WaeiWork\safe\server\gmsv\magic\magic_base.c"
+"D:\WaeiWork\safe\server\gmsv\magic\magic_field.c"
+"D:\WaeiWork\safe\server\gmsv\map\map_deal.c"
+"D:\WaeiWork\safe\server\gmsv\map\map_util.c"
+"D:\WaeiWork\safe\server\gmsv\map\map_warppoint.c"
+"D:\WaeiWork\safe\server\gmsv\map\readmap.c"
+"D:\WaeiWork\safe\server\gmsv\handletime.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_action.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_airplane.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_alldoman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_auctioneer.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_bankman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_bigsmallmaster.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_bigsmallpet.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_blackmarket.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_bodylan.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_bus.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_charm.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_checkman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_dengon.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_door.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_doorman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_duelranking.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_eventaction.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_exchangeman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_familyman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_fmchallenge.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_fmdengon.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_fmhealer.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_fmletter.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_fmpkcallman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_fmpkman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_fmwarpman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_freepetskillshop.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_gamblebank.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_gamblemaster.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_gambleroulette.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_healer.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_itemchange.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_itemshop.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_janken.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_luckyman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_makepair.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_manorsman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_mic.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_msg.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_mtradenpcman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_newnpcman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_npcenemy.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_oldman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_pauctionman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_petfusion.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_petmaker.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_petracemaster.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_petracepet.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_petshop.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_petskillshop.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_pkpetshop.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_poolitemshop.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_quiz.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_riderman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_roomadminnew.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_sample.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_savepoint.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_scheduleman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_sellsthman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_signboard.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_simpleshop.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_stoneserviceman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_storyteller.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_sysinfo.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_timeman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_townpeople.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_transerman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_transmigration.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_verywelfare.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_warp.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_warpman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_welfare.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_welfare2.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_windowhealer.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npc_windowman.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npccreate.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npcgen.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npctemplate.c"
+"D:\WaeiWork\safe\server\gmsv\npc\npcutil.c"
+"D:\WaeiWork\safe\server\gmsv\npc\readnpc.c"
+"D:\WaeiWork\safe\server\gmsv\autil.c"
+"D:\WaeiWork\safe\server\gmsv\buf.c"
+"D:\WaeiWork\safe\server\gmsv\callfromac.c"
+"D:\WaeiWork\safe\server\gmsv\callfromcli.c"
+"D:\WaeiWork\safe\server\gmsv\configfile.c"
+"D:\WaeiWork\safe\server\gmsv\function.c"
+"D:\WaeiWork\safe\server\gmsv\init.c"
+"D:\WaeiWork\safe\server\gmsv\link.c"
+"D:\WaeiWork\safe\server\gmsv\log.c"
+"D:\WaeiWork\safe\server\gmsv\lssproto_serv.c"
+"D:\WaeiWork\safe\server\gmsv\lssproto_util.c"
+"D:\WaeiWork\safe\server\gmsv\main.c"
+"D:\WaeiWork\safe\server\gmsv\mclient.c"
+"D:\WaeiWork\safe\server\gmsv\msignal.c"
+"D:\WaeiWork\safe\server\gmsv\net.c"
+"D:\WaeiWork\safe\server\gmsv\npcserver.c"
+"D:\WaeiWork\safe\server\gmsv\npcshandle.c"
+"D:\WaeiWork\safe\server\gmsv\object.c"
+"D:\WaeiWork\safe\server\gmsv\saacproto_cli.c"
+"D:\WaeiWork\safe\server\gmsv\saacproto_util.c"
+"D:\WaeiWork\safe\server\saac\saacproto_work.c"
+"D:\WaeiWork\safe\server\gmsv\util.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\fev2\LOCALS~1\Temp\RSP43C.tmp" 
+Creating temporary file "C:\DOCUME~1\fev2\LOCALS~1\Temp\RSP43D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/GMSV.pdb" /debug /machine:I386 /out:"Debug/GMSV.exe" /pdbtype:sept 
+.\Debug\battle.obj
+.\Debug\battle_ai.obj
+.\Debug\battle_command.obj
+.\Debug\battle_event.obj
+.\Debug\battle_item.obj
+.\Debug\battle_magic.obj
+.\Debug\pet_skill.obj
+.\Debug\profession_skill.obj
+.\Debug\addressbook.obj
+.\Debug\char.obj
+.\Debug\char_angel.obj
+.\Debug\char_base.obj
+.\Debug\char_data.obj
+.\Debug\char_event.obj
+.\Debug\char_item.obj
+.\Debug\char_party.obj
+.\Debug\char_talk.obj
+.\Debug\char_walk.obj
+.\Debug\chatmagic.obj
+.\Debug\chatroom.obj
+.\Debug\deathcontend.obj
+.\Debug\defend.obj
+.\Debug\encount.obj
+.\Debug\enemy.obj
+.\Debug\event.obj
+.\Debug\family.obj
+.\Debug\pet.obj
+.\Debug\pet_event.obj
+.\Debug\petmail.obj
+.\Debug\skill.obj
+.\Debug\title.obj
+.\Debug\trade.obj
+.\Debug\item.obj
+.\Debug\item_event.obj
+.\Debug\item_gen.obj
+.\Debug\item_trade.obj
+.\Debug\magic.obj
+.\Debug\magic_base.obj
+.\Debug\magic_field.obj
+.\Debug\map_deal.obj
+.\Debug\map_util.obj
+.\Debug\map_warppoint.obj
+.\Debug\readmap.obj
+.\Debug\handletime.obj
+.\Debug\npc_action.obj
+.\Debug\npc_airplane.obj
+.\Debug\npc_alldoman.obj
+.\Debug\npc_auctioneer.obj
+.\Debug\npc_bankman.obj
+.\Debug\npc_bigsmallmaster.obj
+.\Debug\npc_bigsmallpet.obj
+.\Debug\npc_blackmarket.obj
+.\Debug\npc_bodylan.obj
+.\Debug\npc_bus.obj
+.\Debug\npc_charm.obj
+.\Debug\npc_checkman.obj
+.\Debug\npc_dengon.obj
+.\Debug\npc_door.obj
+.\Debug\npc_doorman.obj
+.\Debug\npc_duelranking.obj
+.\Debug\npc_eventaction.obj
+.\Debug\npc_exchangeman.obj
+.\Debug\npc_familyman.obj
+.\Debug\npc_fmchallenge.obj
+.\Debug\npc_fmdengon.obj
+.\Debug\npc_fmhealer.obj
+.\Debug\npc_fmletter.obj
+.\Debug\npc_fmpkcallman.obj
+.\Debug\npc_fmpkman.obj
+.\Debug\npc_fmwarpman.obj
+.\Debug\npc_freepetskillshop.obj
+.\Debug\npc_gamblebank.obj
+.\Debug\npc_gamblemaster.obj
+.\Debug\npc_gambleroulette.obj
+.\Debug\npc_healer.obj
+.\Debug\npc_itemchange.obj
+.\Debug\npc_itemshop.obj
+.\Debug\npc_janken.obj
+.\Debug\npc_luckyman.obj
+.\Debug\npc_makepair.obj
+.\Debug\npc_manorsman.obj
+.\Debug\npc_mic.obj
+.\Debug\npc_msg.obj
+.\Debug\npc_mtradenpcman.obj
+.\Debug\npc_newnpcman.obj
+.\Debug\npc_npcenemy.obj
+.\Debug\npc_oldman.obj
+.\Debug\npc_pauctionman.obj
+.\Debug\npc_petfusion.obj
+.\Debug\npc_petmaker.obj
+.\Debug\npc_petracemaster.obj
+.\Debug\npc_petracepet.obj
+.\Debug\npc_petshop.obj
+.\Debug\npc_petskillshop.obj
+.\Debug\npc_pkpetshop.obj
+.\Debug\npc_poolitemshop.obj
+.\Debug\npc_quiz.obj
+.\Debug\npc_riderman.obj
+.\Debug\npc_roomadminnew.obj
+.\Debug\npc_sample.obj
+.\Debug\npc_savepoint.obj
+.\Debug\npc_scheduleman.obj
+.\Debug\npc_sellsthman.obj
+.\Debug\npc_signboard.obj
+.\Debug\npc_simpleshop.obj
+.\Debug\npc_stoneserviceman.obj
+.\Debug\npc_storyteller.obj
+.\Debug\npc_sysinfo.obj
+.\Debug\npc_timeman.obj
+.\Debug\npc_townpeople.obj
+.\Debug\npc_transerman.obj
+.\Debug\npc_transmigration.obj
+.\Debug\npc_verywelfare.obj
+.\Debug\npc_warp.obj
+.\Debug\npc_warpman.obj
+.\Debug\npc_welfare.obj
+.\Debug\npc_welfare2.obj
+.\Debug\npc_windowhealer.obj
+.\Debug\npc_windowman.obj
+.\Debug\npccreate.obj
+.\Debug\npcgen.obj
+.\Debug\npctemplate.obj
+.\Debug\npcutil.obj
+.\Debug\readnpc.obj
+.\Debug\autil.obj
+.\Debug\buf.obj
+.\Debug\callfromac.obj
+.\Debug\callfromcli.obj
+.\Debug\configfile.obj
+.\Debug\function.obj
+.\Debug\init.obj
+.\Debug\link.obj
+.\Debug\log.obj
+.\Debug\lssproto_serv.obj
+.\Debug\lssproto_util.obj
+.\Debug\main.obj
+.\Debug\mclient.obj
+.\Debug\msignal.obj
+.\Debug\net.obj
+.\Debug\npcserver.obj
+.\Debug\npcshandle.obj
+.\Debug\object.obj
+.\Debug\saacproto_cli.obj
+.\Debug\saacproto_util.obj
+.\Debug\saacproto_work.obj
+.\Debug\util.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\fev2\LOCALS~1\Temp\RSP43D.tmp"
+<h3>Output Window</h3>
+Compiling...
+battle.c
+d:\waeiwork\safe\server\gmsv\battle\battle.c(5) : fatal error C1083: Cannot open include file: 'buf.h': No such file or directory
+battle_ai.c
+d:\waeiwork\safe\server\gmsv\battle\battle_ai.c(3) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+battle_command.c
+d:\waeiwork\safe\server\gmsv\battle\battle_command.c(4) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+battle_event.c
+d:\waeiwork\safe\server\gmsv\battle\battle_event.c(4) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+battle_item.c
+d:\waeiwork\safe\server\gmsv\battle\battle_item.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+battle_magic.c
+d:\waeiwork\safe\server\gmsv\battle\battle_magic.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+pet_skill.c
+d:\waeiwork\safe\server\gmsv\battle\pet_skill.c(4) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+profession_skill.c
+addressbook.c
+d:\waeiwork\safe\server\gmsv\char\addressbook.c(7) : fatal error C1083: Cannot open include file: 'strings.h': No such file or directory
+char.c
+d:\waeiwork\safe\server\gmsv\char\char.c(8) : fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+char_angel.c
+char_base.c
+D:\WaeiWork\safe\server\gmsv\char\char_base.c(8) : fatal error C1083: Cannot open include file: 'char_base.h': No such file or directory
+char_data.c
+D:\WaeiWork\safe\server\gmsv\char\char_data.c(8) : fatal error C1083: Cannot open include file: 'readmap.h': No such file or directory
+char_event.c
+D:\WaeiWork\safe\server\gmsv\char\char_event.c(4) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+char_item.c
+D:\WaeiWork\safe\server\gmsv\char\char_item.c(4) : fatal error C1083: Cannot open include file: 'readmap.h': No such file or directory
+char_party.c
+D:\WaeiWork\safe\server\gmsv\char\char_party.c(4) : fatal error C1083: Cannot open include file: 'readmap.h': No such file or directory
+char_talk.c
+D:\WaeiWork\safe\server\gmsv\char\char_talk.c(6) : fatal error C1083: Cannot open include file: 'readmap.h': No such file or directory
+char_walk.c
+D:\WaeiWork\safe\server\gmsv\char\char_walk.c(6) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+chatmagic.c
+D:\WaeiWork\safe\server\gmsv\char\chatmagic.c(9) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+chatroom.c
+D:\WaeiWork\safe\server\gmsv\char\chatroom.c(5) : fatal error C1083: Cannot open include file: 'readmap.h': No such file or directory
+deathcontend.c
+c:\program files\microsoft visual studio\vc98\mfc\include\afx.h(15) : fatal error C1189: #error :  MFC requires C++ compilation (use a .cpp suffix)
+defend.c
+D:\WaeiWork\safe\server\gmsv\char\defend.c(7) : fatal error C1083: Cannot open include file: 'readmap.h': No such file or directory
+encount.c
+D:\WaeiWork\safe\server\gmsv\char\encount.c(9) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+enemy.c
+D:\WaeiWork\safe\server\gmsv\char\enemy.c(5) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+event.c
+D:\WaeiWork\safe\server\gmsv\char\event.c(4) : fatal error C1083: Cannot open include file: 'object.h': No such file or directory
+family.c
+D:\WaeiWork\safe\server\gmsv\char\family.c(7) : fatal error C1083: Cannot open include file: 'readmap.h': No such file or directory
+pet.c
+D:\WaeiWork\safe\server\gmsv\char\pet.c(4) : fatal error C1083: Cannot open include file: 'char_base.h': No such file or directory
+pet_event.c
+D:\WaeiWork\safe\server\gmsv\char\pet_event.c(5) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+petmail.c
+D:\WaeiWork\safe\server\gmsv\char\petmail.c(4) : fatal error C1083: Cannot open include file: 'configfile.h': No such file or directory
+skill.c
+D:\WaeiWork\safe\server\gmsv\char\skill.c(6) : fatal error C1083: Cannot open include file: 'skill.h': No such file or directory
+title.c
+D:\WaeiWork\safe\server\gmsv\char\title.c(10) : fatal error C1083: Cannot open include file: 'title.h': No such file or directory
+trade.c
+D:\WaeiWork\safe\server\gmsv\char\trade.c(2) : fatal error C1083: Cannot open include file: 'correct_bug.h': No such file or directory
+item.c
+D:\WaeiWork\safe\server\gmsv\item\item.c(5) : fatal error C1083: Cannot open include file: 'strings.h': No such file or directory
+item_event.c
+D:\WaeiWork\safe\server\gmsv\item\item_event.c(4) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+item_gen.c
+D:\WaeiWork\safe\server\gmsv\item\item_gen.c(8) : fatal error C1083: Cannot open include file: 'strings.h': No such file or directory
+item_trade.c
+d:\waeiwork\safe\server\gmsv\item\item_trade.c(6) : fatal error C1083: Cannot open include file: 'item_trade.h': No such file or directory
+magic.c
+D:\WaeiWork\safe\server\gmsv\magic\magic.c(5) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+magic_base.c
+D:\WaeiWork\safe\server\gmsv\magic\magic_base.c(5) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+magic_field.c
+D:\WaeiWork\safe\server\gmsv\magic\magic_field.c(4) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+map_deal.c
+D:\WaeiWork\safe\server\gmsv\map\map_deal.c(2) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+map_util.c
+D:\WaeiWork\safe\server\gmsv\map\map_util.c(2) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+map_warppoint.c
+D:\WaeiWork\safe\server\gmsv\map\map_warppoint.c(4) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+readmap.c
+D:\WaeiWork\safe\server\gmsv\map\readmap.c(5) : fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory
+handletime.c
+d:\waeiwork\safe\server\gmsv\handletime.c(4) : fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+npc_action.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_action.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_airplane.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_airplane.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_alldoman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_alldoman.c(5) : fatal error C1083: Cannot open include file: 'object.h': No such file or directory
+npc_auctioneer.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_auctioneer.c(4) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_bankman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_bankman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_bigsmallmaster.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_bigsmallmaster.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_bigsmallpet.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_bigsmallpet.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_blackmarket.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_blackmarket.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_bodylan.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_bodylan.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_bus.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_bus.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_charm.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_charm.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_checkman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_checkman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_dengon.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_dengon.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_door.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_door.c(2) : fatal error C1083: Cannot open include file: 'object.h': No such file or directory
+npc_doorman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_doorman.c(3) : fatal error C1083: Cannot open include file: 'object.h': No such file or directory
+npc_duelranking.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_duelranking.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_eventaction.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_eventaction.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_exchangeman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_exchangeman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_familyman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_familyman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_fmchallenge.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_fmchallenge.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_fmdengon.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_fmdengon.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_fmhealer.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_fmhealer.c(12) : fatal error C1083: Cannot open include file: 'object.h': No such file or directory
+npc_fmletter.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_fmletter.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_fmpkcallman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_fmpkcallman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_fmpkman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_fmpkman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_fmwarpman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_fmwarpman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_freepetskillshop.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_freepetskillshop.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_gamblebank.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_gamblebank.c(4) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_gamblemaster.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_gamblemaster.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_gambleroulette.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_gambleroulette.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_healer.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_healer.c(6) : fatal error C1083: Cannot open include file: 'object.h': No such file or directory
+npc_itemchange.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_itemchange.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_itemshop.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_itemshop.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_janken.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_janken.c(3) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+npc_luckyman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_luckyman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_makepair.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_makepair.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_manorsman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_manorsman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_mic.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_mic.c(5) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+npc_msg.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_msg.c(4) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_mtradenpcman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_mtradenpcman.c(4) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_newnpcman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_newnpcman.c(4) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_npcenemy.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_npcenemy.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_oldman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_oldman.c(2) : fatal error C1083: Cannot open include file: 'object.h': No such file or directory
+npc_pauctionman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_pauctionman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_petfusion.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_petfusion.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_petmaker.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_petmaker.c(6) : fatal error C1083: Cannot open include file: 'object.h': No such file or directory
+npc_petracemaster.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_petracemaster.c(4) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_petracepet.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_petracepet.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_petshop.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_petshop.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_petskillshop.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_petskillshop.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_pkpetshop.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_pkpetshop.c(6) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_poolitemshop.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_poolitemshop.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_quiz.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_quiz.c(3) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+npc_riderman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_riderman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_roomadminnew.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_roomadminnew.c(6) : fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+npc_sample.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_sample.c(2) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_savepoint.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_savepoint.c(3) : fatal error C1083: Cannot open include file: 'object.h': No such file or directory
+npc_scheduleman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_scheduleman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_sellsthman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_sellsthman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_signboard.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_signboard.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_simpleshop.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_simpleshop.c(4) : fatal error C1083: Cannot open include file: 'object.h': No such file or directory
+npc_stoneserviceman.c
+d:\waeiwork\safe\server\gmsv\npc\npc_stoneserviceman.c(4) : fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory
+npc_storyteller.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_storyteller.c(2) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_sysinfo.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_sysinfo.c(4) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_timeman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_timeman.c(3) : fatal error C1083: Cannot open include file: 'object.h': No such file or directory
+npc_townpeople.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_townpeople.c(2) : fatal error C1083: Cannot open include file: 'object.h': No such file or directory
+npc_transerman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_transerman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_transmigration.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_transmigration.c(4) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_verywelfare.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_verywelfare.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_warp.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_warp.c(3) : fatal error C1083: Cannot open include file: 'object.h': No such file or directory
+npc_warpman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_warpman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_welfare.c
+npc_welfare2.c
+npc_windowhealer.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_windowhealer.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npc_windowman.c
+D:\WaeiWork\safe\server\gmsv\npc\npc_windowman.c(3) : fatal error C1083: Cannot open include file: 'char.h': No such file or directory
+npccreate.c
+D:\WaeiWork\safe\server\gmsv\npc\npccreate.c(7) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+npcgen.c
+D:\WaeiWork\safe\server\gmsv\npc\npcgen.c(4) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+npctemplate.c
+D:\WaeiWork\safe\server\gmsv\npc\npctemplate.c(7) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+npcutil.c
+D:\WaeiWork\safe\server\gmsv\npc\npcutil.c(3) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+readnpc.c
+d:\waeiwork\safe\server\gmsv\npc\readnpc.c(6) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+autil.c
+d:\waeiwork\safe\server\gmsv\autil.c(12) : fatal error C1083: Cannot open include file: 'autil.h': No such file or directory
+buf.c
+d:\waeiwork\safe\server\gmsv\buf.c(7) : fatal error C1083: Cannot open include file: 'buf.h': No such file or directory
+callfromac.c
+d:\waeiwork\safe\server\gmsv\callfromac.c(3) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+callfromcli.c
+D:\WaeiWork\safe\server\gmsv\callfromcli.c(5) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+configfile.c
+d:\waeiwork\safe\server\gmsv\configfile.c(5) : fatal error C1083: Cannot open include file: 'strings.h': No such file or directory
+function.c
+D:\WaeiWork\safe\server\gmsv\function.c(3) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+init.c
+D:\WaeiWork\safe\server\gmsv\init.c(2) : fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+link.c
+d:\waeiwork\safe\server\gmsv\link.c(3) : fatal error C1083: Cannot open include file: 'link.h': No such file or directory
+log.c
+D:\WaeiWork\safe\server\gmsv\log.c(7) : fatal error C1083: Cannot open include file: 'common.h': No such file or directory
+lssproto_serv.c
+D:\WaeiWork\safe\server\gmsv\lssproto_serv.c(2) : fatal error C1083: Cannot open include file: 'autil.h': No such file or directory
+lssproto_util.c
+d:\waeiwork\safe\server\gmsv\lssproto_util.c(10) : fatal error C1083: Cannot open include file: 'lssproto_util.h': No such file or directory
+main.c
+D:\WaeiWork\safe\server\gmsv\main.c(6) : fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+mclient.c
+d:\waeiwork\safe\server\gmsv\mclient.c(3) : fatal error C1083: Cannot open include file: 'strings.h': No such file or directory
+msignal.c
+D:\WaeiWork\safe\server\gmsv\msignal.c(4) : fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+net.c
+d:\waeiwork\safe\server\gmsv\net.c(7) : fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+npcserver.c
+d:\waeiwork\safe\server\gmsv\npcserver.c(2) : fatal error C1083: Cannot open include file: 'strings.h': No such file or directory
+npcshandle.c
+d:\waeiwork\safe\server\gmsv\npcshandle.c(2) : fatal error C1083: Cannot open include file: 'strings.h': No such file or directory
+object.c
+D:\WaeiWork\safe\server\gmsv\object.c(7) : fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory
+saacproto_cli.c
+D:\WaeiWork\safe\server\gmsv\saacproto_cli.c(4) : fatal error C1083: Cannot open include file: 'saacproto_cli.h': No such file or directory
+saacproto_util.c
+d:\waeiwork\safe\server\gmsv\saacproto_util.c(10) : fatal error C1083: Cannot open include file: 'saacproto_util.h': No such file or directory
+saacproto_work.c
+d:\waeiwork\safe\server\saac\main.h(8) : fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory
+util.c
+D:\WaeiWork\safe\server\gmsv\util.c(3) : fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+GMSV.exe - 142 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
